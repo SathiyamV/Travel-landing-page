@@ -173,6 +173,7 @@ header{
     margin-top: 40px;
     padding: 28px 12%;
     text-align: center;
+    background-color: #FEFCFB;
 }
 .pg3txt span{
     color: #FA7436;
@@ -195,10 +196,10 @@ header{
 }
 .pg3box{
     margin: 20px;
-    background-color: #FEFCFB;
+    background-color: #FFFFFF;
     border: 1px solid #E5E5E5 ;
     border-top: 0px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 .pg3up{
     display: flex;
@@ -234,6 +235,77 @@ header{
     padding: 4px;
     border-radius: 4px;
 }
-#radimg img{
+.page4{
+    margin-top: 40px;
+    padding: 28px 12%;
+    text-align: center;
+    background-color: #FEFCFB;
+}
+.pg4up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pg4upl span{
+    color: #FA7436;
+}
+.pg4upl h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.pg4upl p{
+    margin-top: 10px;;
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.pg4upr img{
+    margin-left: 30px;
+    padding-bottom: 50px;
+}
+.pg4down{
+    display: flex;   
+    justify-content: space-evenly;
+}
+.pg4box{
+    margin: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5 ;
+    border-top: 0px;
     border-radius: 8px;
+}
+
+.pg4bup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.pg4bup h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+}
+#pg4dollar{
+    color: #FA7436;
+}
+.pg4bdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 14px;
+    color: #666666;
+}
+.pg4bdown img{
+    margin: 0px 10px;
+}
+.pg4btns{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+.pg4btns img{
+    margin-left: 20px;
 }
