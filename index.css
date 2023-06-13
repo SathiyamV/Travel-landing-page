@@ -1,0 +1,239 @@
+*{
+    
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Volkhov', serif;
+}
+body{
+    background: linear-gradient(#FA7436,#ea7742,#FA7436);
+    /* background-color: skyblue; */
+}
+.main-container{
+    margin: 50px;
+    background-color: #FEFCFB;
+    border: 4px solid #FEFCFB;
+    border-radius: 10px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: black;
+    font: 18px;
+    font-family: 'volkhov', serif;
+    font-weight: 700;
+}
+.logo img{
+    margin-left: 8px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 28px 12%;
+}
+
+.navbar{
+    display: flex;
+    
+}
+.navbar a{
+    color: #222222;
+    font-weight: 500;
+    padding: 5px 0;
+    margin: 0px 30px;
+}
+
+
+.sign{
+    display: flex;
+    align-items: center;
+}
+.sign a{
+    margin-right: 25px;
+    margin-left: 10px;
+}
+.login{
+    color: #FD8D3A;
+    font-size: 18px;
+    font-style: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.s-up{
+    background-color: #FA7436;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.page1{
+    padding: 28px 12%;
+}
+.page1flex{
+    display: flex;
+    margin-top: 50px;
+}
+.right1 img{
+    width: 500px; 
+}
+.journey{
+    color: #FA7436;
+}
+.left1 h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.left1 p{
+    color: #666666;
+    margin-bottom: 30px;
+}
+#disbtn{
+    color: #FA7436;
+    border: 2px solid #FA7436;
+    border-radius: 4px;
+    background: transparent;
+    padding: 10px 30px;
+}
+.pg1dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    border: 5px solid #FFFFFF;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+.pg1dropdowns h3{
+    font-size: 16px;
+    margin-bottom: 10px;
+    
+}
+.pg1dropdowns p{
+    font-size: 12px;
+    color: #666666;
+}
+.pg1dropdowns img{
+    margin-left: 5px;
+}
+.pg1dropdowns button{
+    font-size: 16px;
+    background-color: #FA7436;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+}
+.page2{
+    background-color: #F7F8FC;
+    padding: 28px 12%;
+    margin-top: 20px;;
+}
+.pg2top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textspg2{
+    margin-top: 20px;;
+    padding-left: 50px;
+    text-align: center;    
+}
+.textspg2 span{
+    color: #FA7436;
+}
+.textspg2 p{
+    margin-top: 10px;;
+    font-size: 12px;
+    color: #666666;
+}
+.vecimg2{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.pg2boxes{
+    display: flex;
+}
+.pg2boxes div{
+    background-color: #FFFFFF;
+    border: 2px solid #FEFCFB;
+    margin: 20px;
+    padding: 40px 40px;
+}
+.pg2boxes img{
+    margin-bottom: 30px;
+}
+.pg2boxes p{
+    margin-top: 10px;;
+    font-size: 12px;
+    color: #666666;
+}
+.page3{
+    margin-top: 40px;
+    padding: 28px 12%;
+    text-align: center;
+}
+.pg3txt span{
+    color: #FA7436;
+}
+.pg3txt h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.pg3txt p{
+    margin-top: 10px;;
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 30px;
+}
+.pg3boxes{
+    display: flex;   
+    justify-content: space-evenly;
+
+}
+.pg3box{
+    margin: 20px;
+    background-color: #FEFCFB;
+    border: 1px solid #E5E5E5 ;
+    border-top: 0px;
+    border-radius: 5px;
+}
+.pg3up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.pg3up h3{
+    color: #222222;
+    font-weight:400;
+    font-size: 24px;
+}
+.pg3up p{
+    color: #666666;
+}
+.pg3down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    font-size: 16px;
+    color: #666666;
+}
+.pg3btns img{
+    margin: 0px 10px;
+}
+#strike{
+    text-decoration: line-through;
+}
+#doldec{
+    background-color: #FFE7DB;
+    color: #FA7436;
+    padding: 4px;
+    border-radius: 4px;
+}
+#radimg img{
+    border-radius: 8px;
+}
