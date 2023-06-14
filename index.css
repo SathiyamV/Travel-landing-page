@@ -398,3 +398,48 @@ header{
     position: relative;
     right: 40px;
 }
+
+.page6{
+    margin-top: 40px;
+    padding: 28px 12%;
+    text-align: center;
+    background-color: #FEFCFB;
+}
+#pg6h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#pg6h1 span{
+    color: #FA7436;
+}
+
+.pg6boxes{
+    display: flex;
+}
+.pg6box{
+    margin: 20px;
+    text-align: left;
+}
+.pg6box h4{
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+.pg6box p{
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+}
+
+#dots{
+    font-size: 50px;
+    color: #E5E5E5;
+}
+#dots span{
+    font-size: 60px;
+    color: #FA7436;
+}
