@@ -314,12 +314,13 @@ header{
     background-color: #F7F8FC;
     padding: 28px 12%;
     margin-top: 20px;
-    align-items: center;
+    align-items: flex-start;
 }
 .pg5left{
     text-align: left;
     margin-left: 80px;
     margin-right: 80px;;
+    margin-top: 100px;
 }
 .pg5left span{
     color: #FA7436;
@@ -340,6 +341,7 @@ header{
 }
 .pg5right{
     display: flex;
+    margin-top: 50px;
 }
 .stack2 {
     margin: 40px;
