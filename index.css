@@ -3,8 +3,7 @@
     margin: 0;
     text-decoration: none;
     list-style: none;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Volkhov', serif;
+    
 }
 body{
     background: linear-gradient(#FA7436,#ea7742,#FA7436);
@@ -15,7 +14,7 @@ body{
     background-color: #FEFCFB;
     border: 4px solid #FEFCFB;
     border-radius: 10px;
-    
+    font-family: 'Volkhov', serif;
 }
 .logo{
     display: flex;
@@ -38,7 +37,7 @@ header{
 
 .navbar{
     display: flex;
-    
+    font-family: 'Poppins', sans-serif;
 }
 .navbar a{
     color: #222222;
@@ -51,6 +50,7 @@ header{
 .sign{
     display: flex;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 .sign a{
     margin-right: 25px;
@@ -88,6 +88,7 @@ header{
 .left1 p{
     color: #666666;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 #disbtn{
     color: #FA7436;
@@ -95,6 +96,7 @@ header{
     border-radius: 4px;
     background: transparent;
     padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .pg1dropdowns{
     display: flex;
@@ -104,8 +106,10 @@ header{
     border: 5px solid #FFFFFF;
     padding: 20px 40px;
     border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
 }
 .pg1dropdowns h3{
+    font-weight: 500;
     font-size: 16px;
     margin-bottom: 10px;
     
@@ -124,6 +128,7 @@ header{
     padding: 10px 30px;
     border-radius: 4px;
     border: none;
+    font-family: 'Poppins', sans-serif;
 }
 .page2{
     background-color: #F7F8FC;
@@ -147,6 +152,7 @@ header{
     margin-top: 10px;;
     font-size: 12px;
     color: #666666;
+    font-family: 'Poppins', sans-serif;
 }
 .vecimg2{
     margin-top: 40px;
@@ -154,6 +160,7 @@ header{
 }
 .pg2boxes{
     display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 .pg2boxes div{
     background-color: #FFFFFF;
@@ -188,10 +195,12 @@ header{
     font-size: 12px;
     color: #666666;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .pg3boxes{
     display: flex;   
     justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
 
 }
 .pg3box{
@@ -259,6 +268,7 @@ header{
     font-size: 12px;
     color: #666666;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .pg4upr img{
     margin-left: 30px;
@@ -274,6 +284,7 @@ header{
     border: 1px solid #E5E5E5 ;
     border-top: 0px;
     border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .pg4bup{
@@ -331,6 +342,7 @@ header{
     font-size: 12px;
     color: #666666;
     margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .pg5btns{
     display: flex;
@@ -342,6 +354,7 @@ header{
 .pg5right{
     display: flex;
     margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 .stack2 {
     margin: 40px;
@@ -349,7 +362,7 @@ header{
     border: 1px solid #E5E5E5 ;
     padding: 20px;
     border-radius: 8px;
-    padding-right: 20px;
+    padding-right: 40px;
 }
 .stack2 p{
     font-size: 12px;
@@ -418,6 +431,7 @@ header{
 
 .pg6boxes{
     display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 .pg6box{
     margin: 20px;
@@ -471,6 +485,7 @@ footer{
 .mailbox{
     position: relative;
     z-index: 2;
+    font-family: 'Poppins', sans-serif;
 }
 .mailbox input{
     padding-top: 20px   ;
@@ -479,12 +494,15 @@ footer{
     padding-right: 300px;
     border-radius: 10px;
     border: none;
+    outline: none;
     margin: 0px;
+    color: #666666;
 }
+
 .mailbox img{
     position: relative;
     left: 40px;
-    top: 4px;
+    top: 3px;
 }
 .mailbox button{
     font-size: 16px;
@@ -512,6 +530,7 @@ footer{
     justify-content: space-around;
     align-items: flex-start;
     text-align: left;
+    font-family: 'Poppins', sans-serif;
 }
 .companies{
     display: flex;
@@ -521,6 +540,7 @@ footer{
     text-align: left;
 }
 .trbook h2{
+    font-family: 'Volkhov', serif;
     margin-bottom: 20px;
 }
 .trbook img{
@@ -541,4 +561,5 @@ footer p{
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
 }
