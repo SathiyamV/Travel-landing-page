@@ -67,6 +67,9 @@ span {
   font-weight: 500;
   margin: 0 30px;
 }
+.navbar--elements a:hover{
+  color: var(--primary_color);
+}
 
 .navbar--buttons {
   display: flex;
